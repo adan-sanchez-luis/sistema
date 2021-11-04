@@ -10,7 +10,7 @@
     <meta name="author" content="">
 
     <title>  <?php echo $__env->yieldContent('titulo','main'); ?>  </title>
-    <link rel="shortcut icon" href="https://i.ibb.co/2YBhLXC/Michelin-Logo.png">
+    <!-- <link rel="shortcut icon" href="https://i.ibb.co/2YBhLXC/Michelin-Logo.png"> -->
 
     <!-- Custom fonts for this template-->
     <link href="<?php echo e(asset('vendor/fontawesome-free/css/all.min.css')); ?>" rel="stylesheet" type="text/css">

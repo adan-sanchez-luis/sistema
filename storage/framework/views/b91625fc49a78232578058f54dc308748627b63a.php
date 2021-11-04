@@ -8,7 +8,7 @@
     <div class="bg-fondo">
 
    
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <!-- <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="1000">
                     <img src="https://wallpapercave.com/wp/wp3766140.jpg"
@@ -33,21 +33,21 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
-        </div>
+        </div> -->
 
         <!--========================================================== -->
         <!-- INTRODUCCION DE SERVICIOS-->
         <!--========================================================== -->
 
 
-        <section class="d-flex flex-column justify-content-center align-items-center pt-5  text-center w-50 m-auto" id="intro">
+        <!-- <section class="d-flex flex-column justify-content-center align-items-center pt-5  text-center w-50 m-auto" id="intro">
             <h1 class="p-3 fs-2 border-top border-3"> <span class="text-success"> “la innovación al servicio de la movilidad”</span></h1>
             <p class="p-3  fs-4">
                 <span class="text-success">Michelin.</span> es un empresa francesa 
                 especializada en la fabricación de neumáticos fundada por los hermanos Édouard Michelin
                  y André Michelin el 28 de mayo de 1889 desarrollado para neumáticos de bicicleta.
             </p>
-        </section>
+        </section> -->
 
         <!--========================================================== -->
         <!-- TIPOS DE SERVICIOS-->
@@ -77,8 +77,8 @@
                             alt="desarrollo" width="180" height="160">
 
                         <div>
-                            <h3 class="fs-5 mt-4 px-4 pb-1 text-success">Promociones/h3>
-                            <p class="px-4">Las mejores promociones las encuentras aquí.</p>
+                            <h3 class="fs-5 mt-4 px-4 pb-1 text-success">Promociones </h3>
+                            <p class="px-4">**Seccion aun en construccion**</p>
                         </div>
                     </div>
                     </div>
@@ -90,7 +90,7 @@
   
                           <div>
                               <h3 class="fs-5 mt-4 px-4 pb-1 text-success">Precios</h3>
-                              <p class="px-4">Paga de acuerdo a tu presupuesto, siempre encontraras algo para ti.</p>
+                              <p class="px-4">Pregunte sobre los precios</p>
                           </div>
                       </div>
                       </div>
@@ -105,10 +105,9 @@
           </h1>
           <p class="p-3  fs-4">
               <span class="text-success">Misión.</span> 
-              Desde la fundación de la empresa en 1891, la misión 
-              de Michelin es contribuir, de forma sostenible, con el progreso de la movilidad
-               de las personas y de los bienes, facilitando la libertad, la seguridad, la eficiencia
-                y el placer de viajar.
+              Estamos comprometidos a proveer productos, servicios y atención de la más 
+              alta calidad, respetando y preservando nuestro entorno, brindando seguridad 
+              y confianza a nuestros clientes y proveedores.
           </p>
 
         <h1 class="p-3 fs-2 border-top border-3"> <span class="text-success"> Visión</span>
@@ -116,12 +115,8 @@
         </h1>
         <p class="p-3  fs-4">
             <span class="text-success">Visión.</span> 
-            Michelin se compromete a conducir todos los aspectos comerciales de una manera responsable. 
-            Esto incluye el desarrollo de soluciones eficientes para satisfacer las expectativas y 
-            los deseos de los consumidores y los accionistas, respetarnos al medio ambiente.
-            Cada decisión de Michelin está basada en cinco valores fundamentales que promueven 
-            el respeto a las personas, a los clientes, a los accionistas, al medio ambiente y a 
-            los hechos.
+            Cumplir las necesidades de nuestros clientes, permitiéndonos ser indudablemente la mejor opción del
+             mercado de llantas y baterías para brindar una excelente atención a los automóviles.
         </p>
     </section>
     
@@ -146,11 +141,11 @@
 
 </div>
 <footer class="w-100  d-flex  align-items-center justify-content-center flex-wrap">
-  <p class="fs-10 px-3  pt-3 text-dark1">Michelin. &copy; Todos Los Derechos Reservados 2021</p>
+  <p class="fs-10 px-3  pt-3 text-dark1">Llantero. &copy; Redes sociales</p>
   <div>
-      <a href="https://m.facebook.com/Michelin/?locale2=es_LA"><i class="fab text-primary fa-facebook fa-2x	mx-2"></i></a>
-      <a href="https://twitter.com/michelinmex?lang=es"><i class="fab text-primary fa-twitter fa-2x mx-2	"></i></a>
-      <a href="https://www.instagram.com/michelin/?hl=es"><i class="fab text-primary fa-instagram fa-2x	mx-2"></i></a>  
+      <a href="https://m.facebook.com/"><i class="fab text-primary fa-facebook fa-2x	mx-2"></i></a>
+      <!-- <a href="https://twitter.com/michelinmex?lang=es"><i class="fab text-primary fa-twitter fa-2x mx-2	"></i></a> -->
+      <a href="https://www.instagram.com/"><i class="fab text-primary fa-instagram fa-2x	mx-2"></i></a>  
   </div>
   
 </footer>
@@ -176,8 +171,8 @@
                     <div class="container-fluid rounded color">
                         <br>
                         <!-- Page Heading -->
-                        <h1 class="h3 mb-2 bold-title">SISTEMAS DE NEUMATICOS MICHELIN <i class="fas fa-car"></i> </h1>
-                        <p class="mb-4 text-dark">“la innovación al servicio de la movilidad”</p>
+                        <h1 class="h3 mb-2 bold-title">SISTEMAS DE VENTA DE LLANTAS  <i class="fas fa-car"></i> </h1>
+                        <!-- <p class="mb-4 text-dark">“la innovación al servicio de la movilidad”</p> -->
 
 
 
@@ -193,7 +188,7 @@
                             <div class="card shadow  rounded card-color">
                                 <div class="container text-black2 text-center">
                                     <br>
-                                    Bienvenido al sistema de neumaticos Michelin,
+                                    Bienvenido al sistema,
                                     esperemos que disfrute de su estancia, Gracias.
                                     <br>
                                     <br>

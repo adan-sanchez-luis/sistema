@@ -171,7 +171,7 @@
                     <div class="container-fluid rounded color">
                         <br>
                         <!-- Page Heading -->
-                        <h1 class="h3 mb-2 bold-title">SISTEMAS DE 0VENTA DE NEUMATICOS  <i class="fas fa-car"></i> </h1>
+                        <h1 class="h3 mb-2 bold-title">SISTEMAS DE VENTA DE LLANTAS  <i class="fas fa-car"></i> </h1>
                         <!-- <p class="mb-4 text-dark">“la innovación al servicio de la movilidad”</p> -->
 
 

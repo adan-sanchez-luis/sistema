@@ -6,8 +6,9 @@
                     <div class="container">
                         <?php if(auth()->guard()->guest()): ?>
                         <a class="navbar-brand" href="<?php echo e(url('/')); ?>">
-                            <img src="https://i.ibb.co/2YBhLXC/Michelin-Logo.png" alt="Sistemas de Maxima Seguridad"
-                            width="40" height="40" class="d-inline-block align-text-top">
+                        LOGO...
+                            <!-- <img src="https://i.ibb.co/2YBhLXC/Michelin-Logo.png" alt="Sistemas de Maxima Seguridad"
+                            width="40" height="40" class="d-inline-block align-text-top"> -->
                         </a>
                         <?php else: ?>
                         <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
