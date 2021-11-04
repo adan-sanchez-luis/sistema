@@ -64,7 +64,7 @@
                                                                                
                                                                             <div class="col-md-12 mt-4">
                                                                                     <div class="form-group">
-                                                                                        <label class="text-black h4">Mensaje</label>
+                                                                                        <label class="text-black h4">Agregue una descripción para el servicio</label>
                                                                                         <textarea class="form-control" 
                                                                                         value="{{old('message')}}"    name="message"></textarea>
                                                                                     </div>
@@ -76,7 +76,7 @@
                                             
                                                                                 
                                                                                 
-                                                                                <div class="col-md-6" style="text-align: right">
+                                                                                <!--<div class="col-md-6" style="text-align: right">
                                                                                     <div><label class="text-black h4">Valor de descuento:</label></div>                                        
                                                                                 </div>
                                                                                 @php($porcentaje = ['10', '15', '20', '25', '30','35', '40', '45', '50'])
@@ -101,10 +101,10 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class="col-md-12">
-                                                                               
+-->
                                                                            <br><br>
                                                                                 <div class="text-black h4" style="text-align: center;">
-                                                                                <button class="btn btn-primary btn-user btn-block" type="submit">Enviar promocion <i class="fas fa-paper-plane"></i> </button>
+                                                                                <button class="btn btn-primary btn-user btn-block" type="submit">Realizar venta del servicio<!--<i class="fas fa-paper-plane"></i>--> </button>
                                                                             </div>
                                                                         </form>
                                                                     </div>
