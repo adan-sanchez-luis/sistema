@@ -4,8 +4,8 @@
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="<?php echo e(url('/')); ?>">
                 <div class="sidebar-brand-icon rotate-n-15">
-                    <img src="https://i.ibb.co/2YBhLXC/Michelin-Logo.png" alt="Michelin"
-                        width="40" height="40" class="d-inline-block align-text-top">
+                    <!-- <img src="https://i.ibb.co/2YBhLXC/Michelin-Logo.png" alt="Michelin"
+                        width="40" height="40" class="d-inline-block align-text-top"> -->
                 </div>
                 <div class="sidebar-brand-text mx-3">Michelin</div>
             </a>

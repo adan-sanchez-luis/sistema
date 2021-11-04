@@ -1,7 +1,7 @@
 @extends('layouts.main')
 @section('titulo', 'Bienvenido')
 @section('contenido')
-    @guest
+    @guest 
         @include('layouts.nav-log')
 
         {{-- incluye vista inicio --}}

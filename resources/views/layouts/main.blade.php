@@ -10,7 +10,7 @@
     <meta name="author" content="">
 
     <title>  @yield('titulo','main')  </title>
-    <!-- <link rel="shortcut icon" href="https://i.ibb.co/2YBhLXC/Michelin-Logo.png"> -->
+    <!-- <link rel="shortcut icon" href="https://i.ibb.co/2YBhLX/Michelin-Logo.png"> -->
 
     <!-- Custom fonts for this template-->
     <link href="{{ asset('vendor/fontawesome-free/css/all.min.css')}}" rel="stylesheet" type="text/css">
