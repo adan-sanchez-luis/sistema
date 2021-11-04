@@ -136,8 +136,8 @@ function getPageStart($title, $description)
                       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" 
                       crossorigin="anonymous">
                 <link rel="stylesheet" href="styles.css">
-                <link rel="shortcut icon"
-                      href="' . Image::fetch('https://cloudinary.com/favicon.png')->format(Format::ico()) . '"/>
+                // <link rel="shortcut icon"
+                //       href="' . Image::fetch('https://cloudinary.com/favicon.png')->format(Format::ico()) . '"/>
             </head>
             <body>
                 <div class="d-flex" id="wrapper">

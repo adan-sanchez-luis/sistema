@@ -1,5 +1,5 @@
 
-<?php $__env->startSection('titulo', 'Bienvenido'); ?>
+<?php $__env->startSection('titulo', 'Hola :3'); ?>
 <?php $__env->startSection('contenido'); ?>
     <?php if(auth()->guard()->guest()): ?> 
         <?php echo $__env->make('layouts.nav-log', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>

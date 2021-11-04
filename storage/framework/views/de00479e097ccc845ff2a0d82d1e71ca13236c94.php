@@ -9,9 +9,9 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>  <?php echo $__env->yieldContent('titulo','main'); ?>  </title>
+    <title><?php echo $__env->yieldContent('titulo','main'); ?></title>
     <!-- <link rel="shortcut icon" href="https://i.ibb.co/2YBhLX/Michelin-Logo.png"> -->
-
+    <link rel="shortcut icon" href="miniatura.ico" type="image/x-icon">
     <!-- Custom fonts for this template-->
     <link href="<?php echo e(asset('vendor/fontawesome-free/css/all.min.css')); ?>" rel="stylesheet" type="text/css">
     <link

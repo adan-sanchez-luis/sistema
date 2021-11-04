@@ -1,5 +1,5 @@
 @extends('layouts.main')
-@section('titulo', 'Bienvenido')
+@section('titulo', 'Hola :3')
 @section('contenido')
     @guest 
         @include('layouts.nav-log')
