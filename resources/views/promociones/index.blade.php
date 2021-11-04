@@ -16,14 +16,14 @@
                 <div class="container-fluid rounded color">
                     <br>
                     <!-- Page Heading -->
-                    <h1 class="h3 mb-2 bold-title">Promociones<i class="fas fa-percentage mx-3"></i></h1>
+                    <h1 class="h3 mb-2 bold-title">Cambio de neumaticos<i class="fas fa-percentage mx-3"></i></h1>
                     <p class="mb-4 text-dark"></p>
 
                     @include('plantilla.notification')
                     <!-- DataTales Example -->
                     <div class="card shadow mb-4 rounded card-color">
                         <div class="card-header py-3 bg-color">
-                            <h6 class="m-0 font-weight-bold "> Enviar promociones</h6>
+                            <h6 class="m-0 font-weight-bold "> Venta de servicio</h6>
                         </div>
 
                       
@@ -46,20 +46,20 @@
                                                                             @csrf
                                                                             <div class="row">
                                                                                 <div class="col-md-12" style="text-align: center">
-                                                                                    <label class="text-black h4">Promocion</label>
+                                                                                    <label class="text-black h4">Cambio de neumaticos</label>
                                                                                     <br><br>
                                                                                 </div>
                                                                                 <div class="col-md-12 mt-4">
                                                                                     <div class="text-center">
-                                                                                        <label class="text-black h4">Imagen</label>
-                                                                                        <input type="file" accept="image/*" name="image"
+                                                                                        <label class="text-black h4">Agregue los datos del servicio</label>
+                                                                                        <!--<input type="file" accept="image/*" name="image"
                                                                                         placeholder="Inserte una imagen" class="form-control text-upper">
 
                                                                                     </div>
                                                                                     @error('image')
                                                                                     <div class="message-error">*{{ $message }}</div>
                                                                                 @enderror
-                                                                            
+                                                                                -->
                                                                                 </div>
                                                                                
                                                                             <div class="col-md-12 mt-4">
