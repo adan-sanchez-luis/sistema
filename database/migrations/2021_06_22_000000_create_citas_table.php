@@ -23,7 +23,7 @@ class CreateCitasTable extends Migration
             $table->id();
             $table->string('name');
             $table->string('username')->unique();
-            $table->longText('photo')->default('https://res.cloudinary.com/maximaseguridadapp/image/upload/v1628227835/perfil/default.svg');
+            $table->longText('photo')->nullable();
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
@@ -44,7 +44,7 @@ class CreateCitasTable extends Migration
             $table->float('precio_c')->nullable(false);
             $table->float('precio_v')->nullable(false);
             $table-> integer('stock');   
-            $table->longText('imagen')->default('https://res.cloudinary.com/maximaseguridadapp/image/upload/v1628230965/camaras/default_camara.png');
+            $table->longText('imagen')->nullable();
 
             // $table-> string('');
             // $table -> string('adress');

@@ -2,7 +2,7 @@
  <footer class="sticky-footer footer-bg">
     <div class="container my-auto">
         <div class="copyright text-center my-auto">
-            <span class=" text-footer">Michelin &copy; Todos Los Derechos Reservados 2021</span>
+            <span class=" text-footer">Llantero &copy; Redes sociales</span>
         </div>
     </div>
 </footer>
