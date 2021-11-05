@@ -1,4 +1,3 @@
-
 <?php $__env->startSection('titulo', 'Mi perfil'); ?>
 <?php $__env->startSection('contenido'); ?>
 
@@ -16,14 +15,14 @@
                 <div class="container-fluid rounded color">
                     <br>
                     <!-- Page Heading -->
-                    <h1 class="h3 mb-2 bold-title">Promociones<i class="fas fa-percentage mx-3"></i></h1>
+                    <h1 class="h3 mb-2 bold-title">Cambio de neumaticos<i class="fas fa-percentage mx-3"></i></h1>
                     <p class="mb-4 text-dark"></p>
 
                     <?php echo $__env->make('plantilla.notification', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
                     <!-- DataTales Example -->
                     <div class="card shadow mb-4 rounded card-color">
                         <div class="card-header py-3 bg-color">
-                            <h6 class="m-0 font-weight-bold "> Enviar promociones</h6>
+                            <h6 class="m-0 font-weight-bold "> Venta de servicio</h6>
                         </div>
 
                       
@@ -47,13 +46,13 @@
                                                                             <?php echo csrf_field(); ?>
                                                                             <div class="row">
                                                                                 <div class="col-md-12" style="text-align: center">
-                                                                                    <label class="text-black h4">Promocion</label>
+                                                                                    <label class="text-black h4">Cambio de neumaticos</label>
                                                                                     <br><br>
                                                                                 </div>
                                                                                 <div class="col-md-12 mt-4">
                                                                                     <div class="text-center">
-                                                                                        <label class="text-black h4">Imagen</label>
-                                                                                        <input type="file" accept="image/*" name="image"
+                                                                                        <label class="text-black h4">Agregue los datos del servicio</label>
+                                                                                        <!--<input type="file" accept="image/*" name="image"
                                                                                         placeholder="Inserte una imagen" class="form-control text-upper">
 
                                                                                     </div>
@@ -67,13 +66,13 @@ $message = $__bag->first($__errorArgs[0]); ?>
 if (isset($__messageOriginal)) { $message = $__messageOriginal; }
 endif;
 unset($__errorArgs, $__bag); ?>
-                                                                            
+                                                                                -->
                                                                                 </div>
                                                                                
                                                                             <div class="col-md-12 mt-4">
                                                                                     <div class="form-group">
-                                                                                        <label class="text-black h4">Mensaje</label>
-                                                                                        <textarea class="form-control" 
+                                                                                        <label class="text-black h4">Agregue una descripción para el servicio</label>
+                                                                                        <textarea class="form-control"
                                                                                         value="<?php echo e(old('message')); ?>"    name="message"></textarea>
                                                                                     </div>
                                                                                     <?php $__errorArgs = ['message'];
@@ -86,13 +85,13 @@ $message = $__bag->first($__errorArgs[0]); ?>
 if (isset($__messageOriginal)) { $message = $__messageOriginal; }
 endif;
 unset($__errorArgs, $__bag); ?>
-                                                                                
+                                                                                    
                                                                                 </div>
                                             
                                                                                 
                                                                                 
-                                                                                <div class="col-md-6" style="text-align: right">
-                                                                                    <div><label class="text-black h4">Valor de descuento:</label></div>                                        
+                                                                                <!--<div class="col-md-6" style="text-align: right">
+                                                                                    <div><label class="text-black h4">Valor de descuento:</label></div>
                                                                                 </div>
                                                                                 <?php ($porcentaje = ['10', '15', '20', '25', '30','35', '40', '45', '50']); ?>
                                                                                 <div class="col-md-6" style="text-align:right">
@@ -103,7 +102,7 @@ unset($__errorArgs, $__bag); ?>
                                                                                     </select>
                                                                                 </div>
                                                                                 <div class="col-md-6" style="text-align: right">
-                                                                                    <div><label class="text-black h4">Rin:</label></div>                                        
+                                                                                    <div><label class="text-black h4">Rin:</label></div>
                                                                                 </div>
                                                                                 <?php ($rines = ['13', '14', '15', '16', '17','18', '19', '20'
                                                                                 ,"22"]); ?>
@@ -116,10 +115,10 @@ unset($__errorArgs, $__bag); ?>
                                                                                 </div>
                                                                             </div>
                                                                             <div class="col-md-12">
-                                                                               
+-->
                                                                            <br><br>
                                                                                 <div class="text-black h4" style="text-align: center;">
-                                                                                <button class="btn btn-primary btn-user btn-block" type="submit">Enviar promocion <i class="fas fa-paper-plane"></i> </button>
+                                                                                <button class="btn btn-primary btn-user btn-block" type="submit">Realizar venta del servicio<!--<i class="fas fa-paper-plane"></i>--> </button>
                                                                             </div>
                                                                         </form>
                                                                     </div>
@@ -131,7 +130,7 @@ unset($__errorArgs, $__bag); ?>
                                             </div>
                                         </div>
                                     
-                                </div> 
+                                </div>
                             </div>
 
                         <br><br>
