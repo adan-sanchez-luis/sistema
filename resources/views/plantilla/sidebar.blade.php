@@ -20,7 +20,7 @@
             </li>
 
             <!-- Divider -->
-
+<!--
              @can('reporte.index')
              <hr class="sidebar-divider my-0">
 
@@ -31,7 +31,7 @@
                  </a>
              </li>
              @endcan
-
+    -->
              @can('client.index')
              <hr class="sidebar-divider my-0">
 
@@ -60,7 +60,7 @@
               <li class="nav-item   {{ !Route::is('promocion.index') ?: 'active' }}">
                   <a class="nav-link" href="{{ route('promocion.index') }}">
                      <i class="fas fa-fw fa-percentage"></i>
-                      <span>Promociones</span>
+                      <span>Cambio de neumaticos</span>
                   </a>
               </li>
               {{-- @endcan --}}
@@ -97,7 +97,7 @@
                     </a>
                 </li>
             @endcan --}}
-
+<!--
             @can('permission.index')
                 <hr class="sidebar-divider my-0">
 
@@ -108,7 +108,8 @@
                     </a>
                 </li>
             @endcan
-
+            -->
+<!--
             @can('role.index')
                 <hr class="sidebar-divider my-0">
 
@@ -119,7 +120,8 @@
                     </a>
                 </li>
             @endcan
-
+            -->
+<!--
             @can('user.index')
                 <hr class="sidebar-divider my-0">
 
@@ -130,6 +132,7 @@
                     </a>
                 </li>
             @endcan
+            -->
 {{-- 
              @can('pedido.index') 
             <hr class="sidebar-divider my-0">
