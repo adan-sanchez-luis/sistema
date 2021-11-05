@@ -65,19 +65,19 @@
                                                                             <div class="col-md-12 mt-4">
                                                                                     <div class="form-group">
                                                                                         <label class="text-black h4">Agregue una descripción para el servicio</label>
-                                                                                        <textarea class="form-control" 
+                                                                                        <textarea class="form-control"
                                                                                         value="{{old('message')}}"    name="message"></textarea>
                                                                                     </div>
                                                                                     @error('message')
                                                                                     <div class="message-error">*{{ $message }}</div>
                                                                                 @enderror
-                                                                                
+                                                                                    
                                                                                 </div>
                                             
                                                                                 
                                                                                 
                                                                                 <!--<div class="col-md-6" style="text-align: right">
-                                                                                    <div><label class="text-black h4">Valor de descuento:</label></div>                                        
+                                                                                    <div><label class="text-black h4">Valor de descuento:</label></div>
                                                                                 </div>
                                                                                 @php($porcentaje = ['10', '15', '20', '25', '30','35', '40', '45', '50'])
                                                                                 <div class="col-md-6" style="text-align:right">
@@ -88,7 +88,7 @@
                                                                                     </select>
                                                                                 </div>
                                                                                 <div class="col-md-6" style="text-align: right">
-                                                                                    <div><label class="text-black h4">Rin:</label></div>                                        
+                                                                                    <div><label class="text-black h4">Rin:</label></div>
                                                                                 </div>
                                                                                 @php($rines = ['13', '14', '15', '16', '17','18', '19', '20'
                                                                                 ,"22"])
@@ -116,7 +116,7 @@
                                             </div>
                                         </div>
                                     
-                                </div> 
+                                </div>
                             </div>
 
                         <br><br>
